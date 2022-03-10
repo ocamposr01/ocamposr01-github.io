@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Pagina web proyecto de Aplicaciones Web" />
+    <meta name="author" content=" Oscar Campos Roldan" />
+    <meta name="keywords" content=" JDM, PROYECTO, automovil, Web, Aplicaciones" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="icon" type="png" href="icons/icon.png" />
+    <link rel="stylesheet" href="styles-contacto.css">
+    <title> Formulario de Contacto </title>
+</head>
+
+<body>
+    <section>
+        <div class="fondo">
+            <div class="divsection">
+                <div class="links">
+                    <a href="https://instagram.com/oscarcampos_01?utm_medium=copy_link" target="_blank"> <img src="icons/ing.png" alt="ing" height="20" width="20"> </a> &nbsp
+                    <a href="https://twitter.com/OscarCampxs_01?t=_kiOiiUJjYzIy3XhHskVqA&s=09" target="_blank"> <img src="icons/twitter.png" alt="twt" height="20" width="20"> </a> &nbsp
+                    <a href="https://es.linkedin.com" target="_blank"> <img src="icons/linkedin.png" alt="linkid" height="20" width="20"> </a>
+                </div>
+                <h2> Formulario de Contacto </h2>
+                <form name="miformulario" action="mailto:oscarinfo99@educarex.es" method="post" enctype="text/plain">
+                    <label> Introduzca su nombre: <input type="textarea" name="Nombre" maxlength="20" placeholder="Max. 20characters"> </label> <br> <br>
+                    <label> Tipo: <br>
+						<label> <input type="radio" name="gender" value="male"> Soporte <br> </label>
+                    <label> <input type="radio" name="gender" value="female"> Sugerencias <br> </label>
+                    <label> <input type="radio" name="gender" value="other"> Dudas <br> </label>
+                    </label> <br>
+                    <label> Fecha de Solucitud: <input type="date" name="adiade"> </label> <br><br>
+                    <label> Número de Teléfono: <input type="number" max="1000000000" name="tlfn"> </label> <br><br>
+                    <label> Introduzca su correo electronico: <input type="email" size="30" name="email"></label> <br><br>
+                    <label> Seleccione su ciudad:
+						<select name="transporte" aria-placeholder="Ciudad">
+							<option>Don Benito</option>
+							<option>Vva de la Serena</option>
+							<option>Merida</option>
+						</select>
+					</label>
+                    <br>
+                    <br>
+                    <label> Nivel de satisfacion con el servicio: <br> &nbsp1 &nbsp2 &nbsp3 4 &nbsp5 &nbsp6 7 &nbsp8 &nbsp9 &nbsp10 <br> <input type="range" min="1" max="10" name="satisfacion"> </label> <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+                <br>
+                <div id="derecha">
+                    <a href="index.html">INICIO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
